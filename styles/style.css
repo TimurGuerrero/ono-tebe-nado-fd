@@ -232,13 +232,12 @@ body {
 
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 335px 1fr;
+  grid-template-rows: 305px 1fr;
   gap: 0 25px;
-  width: 1052px;
   align-items: center;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .about__round__logo {
