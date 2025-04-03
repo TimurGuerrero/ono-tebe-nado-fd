@@ -5,9 +5,7 @@ body {
   text-decoration: none;
 }
 .text__underline {
-
   text-underline-offset: 4px;
-
 }
 
 .header {
@@ -53,12 +51,17 @@ body {
   width: auto;
 }
 
-.address {
+.header__address {
   width: 240px;
-  grid-column: 3;
   justify-self: end;
+  grid-column: 3;
+}
+
+.address {
   line-height: 24.5px;
   font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .cover {
@@ -284,9 +287,6 @@ body {
 
 .footer__address {
   grid-column: 1;
-  font-size: 18px;
-  font-weight: 400;
-
   width: 265px;
   font-style: normal;
   justify-self: flex-start;
