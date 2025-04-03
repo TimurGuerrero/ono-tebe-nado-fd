@@ -62,12 +62,9 @@ body {
 }
 
 .cover {
-  min-height: 757px;
-  display: flex;
-  text-align: center;
   background-image: url(../images/cover.jpg);
   background-size: cover;
-  background-position: right bottom;
+  background-position: center;
 }
 
 .overlay {
@@ -80,33 +77,28 @@ body {
 }
 
 .cover__title {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   letter-spacing: 0.3em;
-  padding: 165px 50px 0 50px;
+  padding: 165px 50px 0px 50px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
+  gap: 20px;
 }
 
 .aligned-text {
-  height: 115px;
+  display: block;
   text-align: start;
 }
 
 .aligned-text_center {
-  height: 115px;
-  display: block;
   text-align: center;
-  margin-top: 20px;
-  padding-left: 28px;
 }
 
 .aligned-text_right {
-  height: 115px;
-  display: block;
   text-align: right;
-  margin-top: 20px;
-  padding-right: 0;
 }
 
 .letter-spacing-extended {
@@ -114,9 +106,7 @@ body {
 }
 
 .no-letter-spacing {
-  text-align: right;
   letter-spacing: normal;
-  margin: 0;
 }
 
 .white__text {
@@ -128,7 +118,7 @@ body {
   text-transform: uppercase;
   justify-content: space-between;
   align-items: center;
-  padding: 106px 50px 50px 50px;
+  padding: 100px 50px 50px 50px;
 }
 
 .cover__description-text {
@@ -286,6 +276,7 @@ body {
 
 .footer {
   display: grid;
+  min-height: 180px;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   margin-top: 180px;
