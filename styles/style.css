@@ -29,12 +29,16 @@ body {
 }
 
 .header__link {
-  padding-left: 7px;
+  padding-left: 4px;
 }
 
 .header__links-list .header__links-list-item:first-child {
   list-style: none;
   padding-left: 0;
+}
+
+.header__links-list-item {
+  margin-left: 1px;
 }
 
 .menu-link_active {
