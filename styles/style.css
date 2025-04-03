@@ -86,13 +86,13 @@ body {
 .cover__title {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   letter-spacing: 0.3em;
   padding: 165px 50px 0px 50px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
-  gap: 20px;
+  gap: 18px;
 }
 
 .aligned-text {
@@ -110,6 +110,7 @@ body {
 
 .letter-spacing-extended {
   word-spacing: -0.55em;
+  margin-left: 0px;
 }
 
 .no-letter-spacing {
@@ -125,7 +126,7 @@ body {
   text-transform: uppercase;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 50px 50px 50px;
+  padding: 105px 50px 50px 50px;
 }
 
 .cover__description-text {
